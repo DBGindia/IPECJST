@@ -1,0 +1,2055 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> IPEC JOURNAL OF SCIENCE & TECHNOLOGY</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/tablestyle.css">
+
+  <!-- Our CSS stylesheet file -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
+        <link rel="stylesheet" href="countdown/assets/css/styles.css" />
+        <link rel="stylesheet" href="countdown/assets/countdown/jquery.countdown.css" />
+        
+        <!--[if lt IE 9]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+ <style>
+        #blink {
+            font-size: 20px;
+            font-weight: bold;
+            color: #fcb103;
+            transition: 0.5s;
+        }
+    </style>
+
+
+	<style>
+sup {
+    vertical-align: super;
+    font-size: small;
+	text-transform: lowercase;
+}
+</style>
+
+
+<style>
+#demo {
+  text-align: center;
+  font-size: 40px;
+  margin-top:0px;
+ color: yellow;
+}
+</style>
+<style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 0px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+</style>
+<style>
+        hr {
+            height: 4px;
+            background-color: blue;
+            border: none;
+        }
+    </style>
+
+
+</head>
+<!--
+<body data-spy="scroll" data-target="#site-nav">
+    <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+
+                <!-- logo -->
+                <div class="site-branding">
+                    <a class="logo" href="index.html">
+                        
+                        <!-- logo image  -->
+                        <img src="assets/images/logo.png" height="84" width="84" alt="Logo">
+
+                        <font size="6"> &nbsp&nbspIPEC JOURNAL OF SCIENCE & TECHNOLOGY</font>
+											</br>
+                    </a>
+                </div>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div><!-- /.navbar-header -->
+
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <!-- navigation menu -->
+                    <li><a data-scroll href="#archive"><b>Archive</b></a></li>
+                    <li><a data-scroll href="#manuscript"><b>SUBMIT THE MANUSCRIPT</b></a></li>  
+					
+                <!--    <li><a data-scroll href="#submission">SUBMISSION METHOD</a></li>                  
+					<li><a data-scroll href="#schedule">SCHEDULE</a></li>                  
+                    <!-- <li><a data-scroll href="#">Sponsorship</a></li> 
+                    <li><a data-scroll href="#faq">FAQ</a></li>
+                    <li><a data-scroll href="#photos">Photos</a></li>-->
+                
+                </ul>
+				
+				<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a data-scroll href="#about"><b>ABOUT JOURNAL</b></a></li>
+                    <li><a data-scroll href="#scope"><b>AIM AND SCOPE</b></a></li> 
+					<li><a data-scroll href="#editorial"><b>EDITORIAL BOARD</b></a></li> 
+					<li><a data-scroll href="#authors"><b>FOR AUTHORS</b></a></li> 
+					<li><a data-scroll href="#topics"><b>TOPICS</b></a></li> 
+					<li><a data-scroll href="#paper"><b>CALL FOR PAPERS</b></a></li> 
+					<li><a data-scroll href="#location"><b>CONTACT US</b></a></li> 
+				</ul>
+            </div>
+        </div><!-- /.container -->
+    </nav>
+
+    <header id="site-header" class="site-header valign-center"> 
+        <div class="intro">
+		
+		
+		
+		<p id="blink"> <b>Call for Paper : </b>Volume-2, Issue-1 </br> <b>Frequency : </b>02 issues per year </br> <b>Subject : </b>Engineering </br><b> ISSN :</b> 2583-3286 </br> <b> Published By :</b> INDERPRASTHA ENGINEERING COLLEGE, GHAZIABAD </p>
+    <script type="text/javascript">
+        var blink = document.getElementById('blink');
+        setInterval(function() {
+            blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+        }, 3000);
+    </script>
+<!--
+            <h1>25<sup>th</sup>-26<sup>th</sup> June, 2020</h1>
+                      
+        <p><font color="white" size="6"><strong>4<sup>th</sup>NATIONAL CONFERENCE ON RECENT TRENDS IN ELECTRONICS AND ELECTRICAL ENGINEERING (NCRTEEE-2020)</strong></font></p>
+            <p>*Paper presentation would be online through google meet. The link for the same would be shared later.</p>
+<p id="demo"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("June 25, 2020 09:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+}, 1000);
+</script>   -->
+<!-- <a class="btn btn-white" data-scroll href="#registration">Register Now</a>-->
+</div>
+
+</header>
+
+
+
+
+
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+
+                    <h3 class="section-title">ABOUT JOURNAL</h3>
+
+                    <p align="justify"><b>IPEC JOURNAL OF SCIENCE & TECHNOLOGY (IPECJST)</b>is an bi-annual journal published by Inderprastha Engineering College, Ghaziabad, India. It publishes 
+					scientific and technical publications that describe original research work or novel product development. This journal is useful to researchers,
+					engineers, scientists, industrialists, government and academia, professors and students who are interested in keeping a track of original 
+					research and development work being carried out in new and emerging research areas in science, engineering and technology.</br>
+				
+</p>
+
+              <!--      <figure>
+                        <img alt="" class="img-responsive" src="assets/images/ipeccampus.jpg">
+                    </figure>  -->
+
+                </div><!-- /.col-sm-6 -->
+
+                <div id="scope" class="col-sm-6">
+
+                    <h3 class="section-title multiple-title">AIM & SCOPE</h3>
+
+                    <p align="justify"><b>IPEC JOURNAL OF SCIENCE & TECHNOLOGY</b> provides a common forum for the dissemination of research and development results in the various areas of Science, Engineering &  Technology  and researches  of Multidisciplinary in nature. The journal publishes peer-reviewed articles and papers on topics that include Applied Science in Engineering, Electrical, Electronics and Communication Engineering, Mechanical and Civil Engineering, Computer Science and Information Technology and Bio-Medical Engineering.
+					</p>
+<!--
+                    <ul class="list-arrow-right">
+
+                        <li>Learn from the best Asian Social Media Experts &amp; Case Studies</li>
+                        <li>Have dedicated 2-to-1 meetings with the experts</li>
+                        <li>Reach more consumers for less by learning new digital media skills</li>
+                        <li>Save money when spending in online advertising</li>
+                    
+                    </ul>
+					</br>
+					
+                </div><!-- /.col-sm-6 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+        <table class="tableizer-table" width= "100%">
+
+<tbody>
+<tr><td><h4>Frequency</h4></td><td><h4>02 issues per year</h4></td></tr>
+<tr><td><h4>ISSN</h4></td><td><h4>2583-3286(Online)</h4></td></tr>
+<tr><td><h4>Publisher</h4></td><td><h4>Inderprastha Engineering College, Ghaziabad, India</h4></td></tr>
+<tr><td><h4>Chief Editor</h4></td><td><h4>Dr Ajay Kumar, Professor, Inderprastha Engineering College, Ghaziabad, India</h4></td></tr>
+<tr><td><h4>Copyright</h4></td><td><h4>Inderprastha Engineering College, Ghaziabad, India</h4></td></tr>
+<tr><td><h4>Starting Year</h4></td><td><h4>2022</h4></td></tr>
+<tr><td><h4>Subject</h4></td><td><h4>Engineering</h4></td></tr>
+ <tr><td><h4>Language</h4></td><td><h4>English</h4></td></tr>
+ <tr><td><h4>Publication Format</h4></td><td><h4>Online</h4></td></tr>
+ <tr><td><h4>Phone No</h4></td><td><h4>+91-0120-4535026</h4></td></tr>
+ <tr><td><h4>Email id</h4></td><td><h4>editor.ipecjst@ipec.org.in</h4></td></tr>
+ <tr><td><h4>Website</h4></td><td><h4>ipecjst.ipec.org.in</h4></td></tr>
+ <tr><td><h4>Address</h4></td><td><h4>63, SITE-4, SAHIBABAD INDUSTRIAL AREA, SURYA NAGAR FLY OVER ROAD,</br> SAHIBABAD, GHAZIABAD, 201010 </h4></td></tr>
+ <tr><td><h4>Managing Editor</h4></td><td><h4>Dr. Neeta Verma, Professor, Inderprastha Engineering College, Ghaziabad, India</h4></td></tr>
+ 
+ 
+ 
+</tbody></table>
+        
+    </section>
+
+	<!--
+	
+    <section id="facts" class="section bg-image-1 facts text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+
+                    <i class="ion-ios-calendar"></i>
+                    <h3>2015<br>June 25</h3>
+                
+                </div>
+                <div class="col-sm-3">
+
+                    <i class="ion-ios-location"></i>
+                    <h3>California<br>USA</h3>
+                
+                </div>
+                <div class="col-sm-3">
+
+                    <i class="ion-pricetags"></i>
+                    <h3>150<br>Tickets</h3>
+                
+                </div>
+                <div class="col-sm-3">
+                
+                    <i class="ion-speakerphone"></i>
+                    <h3>06<br>Speakers</h3>
+                
+                </div>
+            </div><!-- row -->
+			
+			<!--
+        </div><!-- container -->
+		
+		<!--
+    </section>
+
+	-->
+	
+	
+	<div id="topics" class="container">
+	<div class="row">
+                <div class="col-md-12">
+                    <h2 class="section-title">Topics:</h2>
+					<h4>Topics covered by this journal are:</h4>
+                </div>
+            </div>
+                
+				
+				
+<p align="justify"> <b>Computer science & Information Technology:</b> Machine Learning, Deep Learning, Big Data Analytics, AI in Health Care, Computer Graphics,High Performance Computing, Image and Speech Recognition, Edge Computing , Green Computing, Neural Networks and Fuzzy Logic, Machine Learning.
+</br><b>Communication Engineering:</b> Digital and Analog Communication, Digital Signal Processing, Image Processing, Satellite Communication, Speech and Audio Processing, RF and Microwave Communication, Space Communication, Vehicular Communications, Wireless Communication.
+</br><b>Electrical & Electronics:</b> Power Electronics and Drives, Power and Control Systems, Electronic Devices and Systems, Internet of Things, VLSI Design and Embedded System, Network Technologies, Optoelectronics, Quantum Electronics, Flexible and Wearable Electronics, Instrumentation and Measurement, Electromagnetics, Renewable Energy.
+</br><b>Mechanical engineering:</b> Production Solar Energy, Design Manufacturing & Automation, Thermal Engineering-Design and Development, Friction Stir Processing and Welding Manufacturing, Additive Manufacturing. Composite, Heat Treatment, Casting Manufacturing, Dynamic Design of Mechanical System, Fabrication and Analysis of Cold Rolling Mill, Design and Analysis of Shell & Tube Heat Exchanger, Advance Manufacturing, Thermal Insulation System.
+</br><b>Applied Science and Humanities</b>
+Computational Methods for Linear and Non Linear Optimization, Mathematical Models, Mathematical Modeling and Computational Techniques, Functional Analysis, Operation Theory, Approximation Theory, Algebraic Coding Theory, Number Theory, Image and Signal Processing, Computational Biology, Biodegradable Polymers, Organometallic Chemistry, Synthetic Organic Chemistry, Spectrophotometric studies of Transition Metal Complexes, Green Chemistry, Nanomaterial , Biodegradable Polymers, Human Values and Indian Knowledge System and Advance Numerical Methods.
+</br><b>Civil Engineering:</b> Building Materials and Structures, Structural Mechanics and Physics,
+Geotechnical Engineering, Road and Bridge Engineering, Urban Engineering and Economy, Constructions Technology, Economy and Management, Information Technologies in Construction, Fire Protection, Thermo Insulation and Renovation of Buildings, Labour Safety in Construction.
+</br>Contributions in areas not listed above but within the scope of the journal are also welcome.
+</p>
+</div>
+	<section id="patrons" class="section patrons">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                   
+                
+                </div>
+            </div>
+			<table id="editorial" class="data-table" width= "100%">
+		
+		<thead>
+			<tr>
+				
+				
+				<th><h2>Editorial Board:</h2></th>
+				
+			</tr>	
+		</thead>
+	<!--	
+		<tr>
+				
+				
+				<td><h3>Chief Editors:</h3></td>
+				
+			</tr>-->	</p>
+		
+		
+		<tbody>
+		    <tr>
+		<td><h4>Sh. Puneet Agarwal (Patron) - Vice-Chairman, Shail Garg Shiksha Sansthan, Ghaziabad, India
+        </h4></br>
+						Mail ID: puneet@ipec.org.in</br>
+					
+						</p></td>
+		</tr>
+		<tr>
+		<td><h4>Dr. Ajay Kumar (Chief Editor),
+						Professor , Inderprastha Engineering College, Ghaziabad, India</h4></br>
+						Mail ID: director@ipec.org.in</br>
+						Ph. : +91-0120-4535057, +91-0120-4535026
+						</p></td>
+		</tr>
+		<tr>
+		<td><h4> Dr. Neeta Verma (Managing Editor),
+						Professor, Inderprastha Engineering College, Ghaziabad, India</h4></br>
+						Mail ID : neeta.verma@ipec.org.in</br>
+						Ph. : +91-0120-4535038
+						</p></td>
+						</tr>
+						<tr>
+		<td><h4> Dr. Ragini Karwayun ,
+						Professor, Inderprastha Engineering College, Ghaziabad, India</h4></br>
+						Mail ID : ragini.karwayun@ipec.org.in</br>
+					
+						</p></td>
+						</tr>
+						
+				<tr>
+		<td><h4>Dr. Hari Singh ,
+						Professor, National Institute of Technology, Kurukshatra, India</h4></br>
+						Mail ID: hsinghfme@nitkkr.ac.in</br>
+			</td>
+		</tr>
+
+				<tr>
+		<td><h4>Dr. Brahmjit Singh ,
+						 Professor, National Institute of Technology, Kurukshatra, India</h4></br>
+						Mail ID: brahmjit@nitkkr.ac.in</br>
+						 </td>
+		</tr>
+				
+		<tr>
+		<td><h4>Dr. Madan Singh ,
+						 Professor at National University of Lesotho, South Africa</h4></br>
+						Mail ID: m.singh@nul.ns</br>
+					 </td>
+		</tr>
+		
+		<tr>
+		<td><h4>Dr. Vinay Kumar ,
+						 Research Scientist,  Department of Environmental Engineering,  Texas A & M University, Kingsville, Texas</h4></br>
+						Mail ID: vinay.kumar@tamuk.edu</br>
+					 </td>
+		</tr>
+		
+		<tr>
+		<td><h4>Dr. Akshay Dvivedi ,
+						 Professor, Indian Institute of Technology, Roorkee, Uttrakhand, India</h4></br>
+						Mail ID: akshaydvivedi@me.iitr.ac.in</br>
+					 </td>
+		</tr><tr>
+		<td><h4>Dr. Shamimul Qamar ,
+						 Professor, KING KHALID UNIVERSITY, ABHA, Saudi Arabia</h4></br>
+						Mail ID: sqamar@kku.edu.sa</br>
+						 </td>
+		</tr><tr>
+		<td><h4>Dr. Athar Hussain ,
+						Professor, Netaji Subhas University of Technology, West Campus, New Delhi, India</h4></br>
+						Mail ID: athar.hussain@nsut.ac.in</br>
+					</td>
+		</tr><tr>
+		<td><h4>Dr. Diwakar Yadav ,
+						 Associate Professor, National Institute of Technology, Hamirpur (HP), India</h4></br>
+						Mail ID: divakaryadav@nith.ac.in</br>
+						 </td>
+		</tr><tr>
+		<td><h4>Dr. Sandeep Kumar Garg ,
+						Associate Professor, Indian Institute of Technology, Roorkee, Uttrakhand, India</h4></br>
+						Mail ID: sandeep.garg@cs.iitr.ac.in</br>
+						</td>
+		</tr><tr>
+		<td><h4>Dr. Ram Sewak Singh ,
+					Assistant Professor, Adama Science and Technology University, Adama, Ethopia</h4></br>
+						Mail ID: ram.singh@astu.edu.et</br>
+						</td>
+		</tr><tr>
+		<td><h4>Dr. Dipti Singh ,
+						Assistant Professor, School Of Vocational Studies & Applied Sciences, Gautam Buddha University, Greater Noida, India</h4></br>
+						Mail ID: dipti@gbu.ac.in</br>
+						</td>
+		</tr>
+		<tr>
+				
+	
+	
+	
+	
+				<td><h2>Advisory Board Members:</h2></td>
+				
+				</tr>	</p>
+				<tr>
+		<td><h4>Dr. Vijai Singh</h4>
+						<p>Professor, Inderprastha Engineering College, Ghaziabad, India</br>
+						Mail ID: hod.cse@ipec.org.in</br>
+						</p></td>
+		</tr>
+		
+		<tr>
+		<td><h4>Dr. Meenakshi Sharma</h4>
+						<p>Professor, Inderprastha Engineering College, Ghaziabad, India</br>
+						Mail ID: hod.ec@ipec.org.in</br>
+						</p></td>
+		</tr>
+		<tr>
+		<td><h4>Dr. Pooja Tripathi</h4>
+						<p>Professor, Inderprastha Engineering College, Ghaziabad, India</br>
+						Mail ID: hod.it@ipec.org.in</br>
+						</p></td>
+		</tr>
+		
+			
+		<tr>
+		<td><h4>Dr. Tripti Sharma</h4>
+						<p>Professor, Inderprastha Engineering College, Ghaziabad, India</br>
+						Mail ID: hod.ds@ipec.org.in</br>
+						</p></td>
+		</tr>
+		
+		<tr>
+		<td><h4>Dr. Kumud Kundu</h4>
+						<p>Professor, Inderprastha Engineering College, Ghaziabad, India</br>
+						Mail ID: hod.aiml@ipec.org.in</br>
+						</p></td>
+		</tr>
+		
+		
+			
+				
+				
+				
+		<!--
+		<tr>
+		<td><h4>Shri LALIT JAISWAL</h4>
+						<p>Secretary</p></td>
+		</tr>
+		<tr>
+		<td><h4>Shri GAURAV GARG</h4>
+						<p>Joint Secretary</p></td>
+		</tr>
+		<tr>
+		<td><h4>Shri RAKESH GOEL</h4>
+						<p>Treasurer</p></td>
+		</tr>
+		<tr>
+		<td><h4>Shri ATUL GARG</h4>
+						<p>Member</p></td>
+		</tr>
+		<tr>
+		<td><h4>Dr. B.C. SHARMA</h4>
+						<p>Director, IPEC</p></td>				
+		</tr>
+		</tbody>
+		
+		</table>   -->
+		
+<section id="patrons" class="section patrons">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">    
+
+            
+
+<style type="text/css">
+	table.tableizer-table {
+		font-size: 16px;
+		border: 1px solid #CCC; 
+		font-family: Arial, Helvetica, sans-serif;
+		border:outset 5px blue;
+	} 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+		text-align:left;
+	}
+	
+</style>
+<!--
+<table class="data-table" width= "100%">
+<thead>
+			<tr>
+				
+				
+				<th><h2>ADVISORY BOARD</h2></th>
+				
+			</tr>	
+		</thead>
+		</table>
+		</br>   -->
+<table class="tableizer-table" width= "75%">
+
+<tbody>
+<!--<tr><td>Dr. RAJ SENANI</td><td>NSIT, Delhi</td></tr>
+
+ <tr><td>Dr. P.K. Sadhu</td><td>IIT(ISM), Dhanbad</td></tr>
+ <tr><td>Dr. Ibraheem</td><td>JMI, New Delhi</td></tr>
+ <tr><td>Dr. Shivendra Nath Sharan</td><td>Manipal University, Jaipur</td></tr>
+ <tr><td>Dr. T.C. Sami</td><td>Additional Director (Retd.), DRDO</td></tr>
+ <tr><td>Dr. NARENDRA KUMAR</td><td>DTU, Delhi</td></tr>
+ <tr><td>Dr. ASHEESH KUMAR SINGH</td><td>MNNIT, Allahabad</td></tr>
+ <tr><td>Dr. SOLOMAN RAJU KOTA</td><td>CEERI, Pilani</td></tr>
+ <tr><td>Dr. RAKESH KUMAR ARYA </td><td>RSAC, MPCST, Bhopal</td></tr>
+ <tr><td>Dr. BRAJESH KUMAR KAUSHIK</td><td>IIT, Roorkee</td></tr>
+ <tr><td>Dr. M.K. PATHAK</td><td>IIT, Roorkee</td></tr>
+ <tr><td>Dr. Shyam Lal</td><td>NITK, Suratkal</td></tr>
+ <tr><td>Dr. Ankur Bansal</td><td>NSIT, Delhi</td></tr>
+ <tr><td>Dr. Aseem Chandel</td><td>REC Mainpuri</td></tr>
+ <tr><td>Dr. D.R. Bhasker</td><td>DTU, Delhi</td></tr>
+ <tr><td>Dr. Dinesh Prasad</td><td>JMI, Delhi</td></tr>
+ <tr><td>Dr. Ansul Agarwal</td><td>NIT, Delhi</td></tr>
+ <tr><td>Dr. Pradeep Kumar</td><td>NIT, Kurukshetra</td></tr>
+ <tr><td>Dr. Bhavnesh Kumar</td><td>NSIT, Delhi</td></tr>
+ <tr><td>Dr. Abhinav Gupta</td><td>JPIT, Noida</td></tr>
+ <tr><td>Dr. Ashok Mittal</td><td>AIACTR, Delhi</td></tr>-->
+</tbody></table>
+
+                    
+
+                    <div id="authors" class="col-md-12">
+                   <!-- <div class="speaker">   -->
+					<h2>FOR AUTHOR</h2>
+					</br>
+
+					<h4>Criteria for Publication </h4></br>
+					
+		<!--			
+					<h2>CO-CONVENERS</h2>
+					</br>
+					<h4>Ms. MEENAKSHI SHARMA (ECE)</h4>
+					<h4>Dr. RAMENDRA SINGH (ECE)</h4>
+					<h4>Dr. SADAF NAQVI (EN)</h4>
+					<h4>Mr. S.P. BIHARI (EN)</h4>
+
+                        -->
+						
+						<p align="justify">The mandatory criteria for any article to be considered for publication in the IPEC Journal of Science and Technology is stated below. Failure to comply these criteria will result in rejection of the article by the editorial team.</br>
+•	Article should be in Microsoft Word format only</br>
+•	Paper must be strictly submitted as per template given. </br>
+•	Equations and formula should be readable, preferably written using equation editing software’s (E.g. Math Type). </br>
+•	All figures provided are of high resolution, preferably 300dp.</br>
+</p>
+</dir>
+<div id="manuscript" class="col-md-12">
+               <h2>Manuscript Preparation Guidelines</h2></br>  
+<p align="justify">Articles submitted to IPEC  Journal of Science and Technology should be prepared strictly as per  guidelines. Following is the chronological order of topics to be included in the article:</br>
+1.	Title</br>
+2.	Abstract</br>
+3.	Keywords</br>
+4.	Introduction</br>
+5.	Concept headings (include statistical methodology, if any)</br>
+6.	Discussion</br>
+7.	Conclusion</br>
+8.	Acknowledgements (If any)</br>
+9.	References</br>
+
+<h4>Electronic Formats</h4>
+<p align="justify">Authors are requested to send their articles in MS Word (.doc) format. In case of any difficulty with the manuscript submission process or concern regarding the suitability of your files, please contact at <b>editor.ipecjst@ipec.org.in</b></p></br>
+
+<h4>Overview of the Article Publication Process</h4>
+<p align="justify">Upon acceptance of the paper, authors will be contacted by the publication team of <b>IPEC  Journal of Science and Technology</b>. 
+The authors are requested to send amendments to the manuscript as per suggestions of reviewers. 
+Then Authors will receive the first proofs of their article to resolve any pending queries. 
+Authors are advised not to send any corrections at the proofs stage and are requested to co-operate with the publication team to ensure smooth workflow and 
+timely publication of the journal issue.</p></br>
+
+<h4>Author Checklist before Submission</h4></br>
+<p align="justify">Are you ready to submit your article? We recommend you check these items one final time before uploading the article on our website. 
+In case of any difficulty in submitting your article, please get in touch with us at <b>editor.ipecjst@ipec.org.in</b></br>
+•	Manuscript is adhering to guidelines</br>
+•	All author affiliations provided</br>
+•	Corresponding author’s email address provided</br>
+•	All figures and tables are called out in the manuscript</br>
+<section id="archive" class="section about">
+</p>
+
+				 
+                    </div><!-- /.speaker -->
+                </div><!-- /.col-md-4 -->
+
+                <div class="col-md-12">
+                    <div class="speaker">
+                        
+                   <h2>Archive</h2>
+					
+										
+					<button class="collapsible"><strong>Vol 1, Issue 1, 2022</strong></button>
+<div class="content">
+<!--
+  <p><h3> IPEC Journal of Science & Technology Vol 1, Issue 1 </h3></p>
+ -->  
+<table class="tableizer-table" width= "100%">
+<thead>
+<tr>
+<td><h4 align="center">S. No.</h4></td>
+<td colspan="2"><h3 align="center">Volume-1, Issue-1, February 2022</h3></td>
+<td><h4 align="center">Page No.</h4></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2" ><strong>1.</strong></td>
+<td>Authors</td>
+<td>Shardul Singh Chauhan, Ajay Kumar, Rajan Rajarshi</td>
+<td rowspan="2"><strong>1-6</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a href="assets/doc/IJ01 CS_01.pdf">A COMPARATIVE ANALYSIS OF VARIOUS METHODS FOR HUMAN FACIAL EMOTIONS RECOGNITION</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>2.</strong></td>
+<td>Authors</td>
+<td>Kirti Jain, Umang Taneja, Deepesh Singh Tomar, Mohit kashyap, Aman</td>
+<td rowspan="2"><strong>7-10</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/IJ03CS_02.pdf">AUDIO CLASSIFICATION USING DEEP LEARNING</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>3.</strong></td>
+<td>Authors</td>
+<td>Uddeshya Kumar, Vikas Chauhan, Surya Kant Choudhary, Shubham Jain, Shafali Jagga</td>
+<td rowspan="2"><strong>11-16</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/IJ04EC_03.pdf">SINGLE PRECISION FLOATING POINT UNIT (FPU) BASED ON IEEE 754 STANDARD USING VERILOG</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>4.</strong></td>
+<td>Authors</td>
+<td>Meenakshi Sharma, Ishan Rohatgi, Mukul, Ojashvi Gupta, Pravigya Srivastava</td>
+<td rowspan="2"><strong>17-20</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/Paper_04.pdf">DRY AND WET WASTE SEGREGATOR</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>5.</strong></td>
+<td>Authors</td>
+<td>Subhash Mishra, Sanjeev Varshney, Lakshay Nayal, Rishabh Kumar, Parth Chaudhary</td>
+<td rowspan="2"><strong>21-25</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/IJ07ME_05.pdf">PERFORMANCE ANALYSIS OF SHELL AND TUBE HEAT EXCHANGERS USING AL₂O₃ NANO-FLUID A REVIEW</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>6.</strong></td>
+<td>Authors</td>
+<td>A.P Singh, Aman Tripathi, Mr. Abhinav Nagar, Mr. Himanshu Choudhary</td>
+<td rowspan="2"><strong>26-30</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/IJ08ME_06.pdf">DESIGN AND FABRICATION OF CNC LASER ENGRAVER USING MICROTROLLER: A REVIEW</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>7.</strong></td>
+<td>Authors</td>
+<td>Haseeb Ahmad Khan, Abhinav Tiwari, Jalaj Kaushik, Manoj Yadav, Bhaskar Chandra Kandpal</td>
+<td rowspan="2"><strong>31-39</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/IJ09ME_07.pdf">THE NEXT ERA OF MANUFACTURING THE FUTURE: MAKING THINGS IN A CHANGING WORLD</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>8.</strong></td>
+<td>Authors</td>
+<td>Kshamata Muktavat, Poonam Agarwal, Ritu Sharma, Vinay Kumar</td>
+<td rowspan="2"><strong>40-46</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/IJ10AS_08.pdf">EFFICACY OF STATISTICAL RANK CORRELATION TESTS IN DEPICTING ASSOCIATION OF CLIMATIC FACTORS WITH THE SPREAD OF COVID-19</a></strong></td>
+</tr>
+</tbody>
+</table> 
+  
+  
+  
+  
+  
+  
+  </div>
+  <!--
+<button class="collapsible">Open Section 2</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">Open Section 3</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+-->
+
+
+<button class="collapsible"><strong>Vol 1, Issue 2, 2022</strong></button>
+<div class="content">
+
+<table class="tableizer-table" width="100%">
+<thead>
+<tr>
+<td><h4 align="center">S. No.</h4></td>
+<td colspan="2"><h3 align="center">Volume-1, Issue-2, October 2022</h3></td>
+<td><h4 align="center">Page No.</h4></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2"><strong>1.</strong></td>
+<td>Authors</td>
+<td>Shashwat Gupta, Shivam Sharma, Suhana Sharma, Tannu Sharma, Medhavi Bhardwaj</td>
+<td rowspan="2"><strong>1-3</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a href="assets/doc/issue2-01.pdf">Controlling Mouse Movements using Hand Gestures</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>2.</strong></td>
+<td>Authors</td>
+<td>Krishna Kumar, Rishabh  Arora, Sarthak Saini, Shubham Bisht, Yatin Singhania</td>
+<td rowspan="2"><strong>4-7</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/issue2-02.pdf">Smart  Contracts Through Block-chain</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>3.</strong></td>
+<td>Authors</td>
+<td>Ayushi Jain, G. Bhoomika, Jasneet  Kaur</td>
+<td rowspan="2"><strong>8-12</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/issue2-03.pdf">Online Face and Displacement Authentication System</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>4.</strong></td>
+<td>Authors</td>
+<td>AUTHORS	Sunidhi Goel, Nishu Tyagi, Anjali Yadav, Shraddha Goel, Garima Gupta</td>
+<td rowspan="2"><strong>13-16</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/issue2-04.pdf">Greenhouse Monitoring & Control System using Node MCU ESP 8266</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>5.</strong></td>
+<td>Authors</td>
+<td>Swapnil Shekhar, Kundan Kumar, Amanpreet Kaur, Vinayak Gupta, Tanroop Singh, Taranjit Kaur, Tushar Dhingra</td>
+<td rowspan="2"><strong>17-19</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/issue2-05.pdf">Assistive Cane for Visually Challenged and Blind</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>6.</strong></td>
+<td>Authors</td>
+<td>Harsh Kumar Maurya, Nikhil Kumar Chaudhary, Mohd. Aqib, Preeti Mishra</td>
+<td rowspan="2"><strong>20-22</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/issue2-06.pdf">IOT Based Automatic Hydroponics Control and Monitoring System</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>7.</strong></td>
+<td>Authors</td>
+<td>Archana Singh, Shailendra Singh, Archana agarwal</td>
+<td rowspan="2"><strong>23-26</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/issue2-07.pdf">Design and Simulation of a Band Pass Filter using defected Ground Structure for Wi-Fi and WLAN Applications</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>8.</strong></td>
+<td>Authors</td>
+<td>Bhaskar Chandra Kandpal, Subhash Mishra, Anil Prakash Singh</td>
+<td rowspan="2"><strong>27-30</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/issue2-08.pdf">Stir Casting Technology for Magnesium-based Metal Matrix Composites- A Review</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>9.</strong></td>
+<td>Authors</td>
+<td>Uma Sharma,  Nelson Divyam Lobo,  Abhilasha Mishra, Jyoti Singh</td>
+<td rowspan="2"><strong>31-34</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/issue2-09.pdf">IOT Based Smart Hydroponics System with Artificial Photo-synthesis</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>10.</strong></td>
+<td>Authors</td>
+<td>B K Sahana, K C Rupesh</td>
+<td rowspan="2"><strong>35-38</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/issue2-10.pdf">A Single-Phase Hybrid Seventeen Level Multilevel Inverter Topology</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>11.</strong></td>
+<td>Authors</td>
+<td>Shilpa Gupta, Sadaf Naqvi</td>
+<td rowspan="2"><strong>39-43</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/issue2-11.pdf">Analysis of Photovoltaic Generator using MATLAB-Simulink</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>12.</strong></td>
+<td>Authors</td>
+<td>Aditi Jain, Simran Solanki, Sravika Singh, Vanshika Gupta, Pooja Mishra</td>
+<td rowspan="2"><strong>44-46</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/issue2-12.pdf">Social Distancing Detector using Open CV and Raspberry PI</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>13.</strong></td>
+<td>Authors</td>
+<td>Ms.NehaVarma</td>
+<td rowspan="2"><strong>47-53</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/issue2-13.pdf">Fundus Image based Automatic Cataract Detection and Grading System</a></strong></td>
+</tr><tr>
+<td rowspan="2"><strong>14.</strong></td>
+<td>Authors</td>
+<td>Saumya Gupta, Sachit  Saini, Saksham Tyagi</td>
+<td rowspan="2"><strong>54-58</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/issue2-14.pdf">Transformation of Emotions to Emoticons</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>15.</strong></td>
+<td>Authors</td>
+<td>Anurag Tiwari, Mustaqueemuddin, Vaibhav Tyagi, Sushmita Siddharth, Vishal Gupta</td>
+<td rowspan="2"><strong>59-61</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/issue2-15.pdf">Comparison of Different Techniques of PAPR Reduction Schemes of OFDM System</a></strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+ <!--
+<button class="collapsible">Open Section 2</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">Open Section 3</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+-->
+
+<!--
+<button class="collapsible"><strong>Vol 2, Issue 1, 2023</strong></button>
+<div class="content">
+
+<table class="tableizer-table" width="100%">
+<thead>
+<tr>
+<td><h4 align="center">S. No.</h4></td>
+<td colspan="2"><h3 align="center">Volume-2, Issue-1, June 2023</h3></td>
+<td><h4 align="center">Page No.</h4></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2"><strong>1.</strong></td>
+<td>Authors</td>
+<td>DR. ANJALI SINGHAL, AYUSH KUMAR SINGH, CHANDNI ANWAR ANSARI, CHARU KUMAR, DEVANGI VERMA</td>
+<td rowspan="2"><strong>1-5</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a href="assets/doc/C3-F1.pdf" target="_blank">SMART BIN USING SPEECH RECOGNITION</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>2.</strong></td>
+<td>Authors</td>
+<td>SHWETA CHAKU, ATIF, AWADHESH, AYUSH, BHANU</td>
+<td rowspan="2"><strong>6-11</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/C7-F2.pdf" target="_blank">REAL TIME TWITTER SENTIMENT ANALYSIS</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>3.</strong></td>
+<td>Authors</td>
+<td>MS. MONIKA SHARMA, PRIYANSH, ANJALI MATHUR, ANMOL RAJOURA, AAKANSHA TYAGI</td>
+<td rowspan="2"><strong>12-17</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/C2-F3.pdf" target="_blank">INFINITY DIARIES: A NFT MARKET PLACE</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>4.</strong></td>
+<td>Authors</td>
+<td>MANDEEP KATRE, NILESH GUPTA, ANUSHKA SINGH, NANDINI SAHNI AND NIKHIL GARG</td>
+<td rowspan="2"><strong>18-25</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/C10-F4.pdf" target="_blank">IOT ENABLED SCHOOL BUS MANAGEMENT SYSTEM</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>5.</strong></td>
+<td>Authors</td>
+<td>MRS. DEEPIKA TYAGI, ANSHIKA MENDIRATTA, PARTH RANA, AMAN PUROHIT, AMAN MISHRA</td>
+<td rowspan="2"><strong>26-32</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/C5-F5.pdf" trage="_blank">ATTENTION ASSIST-A DROWSINESS DETECTION SYSTEM</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>6.</strong></td>
+<td>Authors</td>
+<td>MEHUL GUPTA, MANVI, MIHIR BATRA</td>
+<td rowspan="2"><strong>33-37</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/C9-F6.pdf" target="_blank">HUMAN COMPUTER INTERACTION USING HAND GESTURE RECOGNITION SYSTEM</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>7.</strong></td>
+<td>Authors</td>
+<td>MONIKA SHARMA, TARUN SINGHAL, TAUFIQ UMAR, UDAY RAJ SHARMA, VINAY KUMAR MAURYA</td>
+<td rowspan="2"><strong>38-42</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/C11-F7.pdf" target="_blank">CAR RACING GAME AI USING REINFORCEMENT LEARNING</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>8.</strong></td>
+<td>Authors</td>
+<td>Ms. SWAPNA SINGH, HIYA SHUKLA, KESHAV SHARMA, HARSH TYAGI, JAYA PRASAD</td>
+<td rowspan="2"><strong>42-49</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/C12-F8.pdf" target="_blank">DIGITIZED INTERACTION: A GESTURE-CONTROLLED WHITEBOARD SYSTEM WITH OPENCV, MEDIAPIPE, AND NUMPY</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>9.</strong></td>
+<td>Authors</td>
+<td>SHWETA AGRAWAL, PURSHOTAM KUMAR ROY, ARJUN THAKUR, RAMAN SINGH</td>
+<td rowspan="2"><strong>50-54</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/E1-F9.pdf" target="_blank">OPTIMIZATION OF GRID CONNECTED PV ARRAY SYSTEM</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>10.</strong></td>
+<td>Authors</td>
+<td>MEENAKSHI SHARMA, MANDEEP, NISHANT MISHRA, PRAYAAS ABROL, RAVI KUMAR</td>
+<td rowspan="2"><strong>55-59</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/E4-F10.pdf" target="_blank">DESIGN AND DEVELOPMENT OF DIGITAL SMART SCREEN</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>11.</strong></td>
+<td>Authors</td>
+<td>MS. SHALINI SINGH, NISHKARSH KRISHNATRAY, RIYA SHARMA, RISHABH RANA, SHRUTI JAIN</td>
+<td rowspan="2"><strong>60-65</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/E5-F11.pdf" target="_blank">DESIGN & DEVELOPMENT OF SAFETY BELT JAZZED SYSTEM</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>12.</strong></td>
+<td>Authors</td>
+<td>SWATI VAID, ADITYA DHUNNA, ARYAN BISHT, KHUSHI SRIVASTAVA</td>
+<td rowspan="2"><strong>66-69</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/E6-F12.pdf" target="_blank">DESIGN & DEVELOPMENT OF WEB BASED APPLICATION FOR EDUCATIONAL PURPOSE</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>13.</strong></td>
+<td>Authors</td>
+<td>ARUN KUMAR, NIKHIL SAINI, NAVEEN KR VARSHNEY, MD. SADIQUE, MEDHAVI BHARDWAJ</td>
+<td rowspan="2"><strong>70-77</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/I1-F13.pdf" target="_blank">INFORMATION HIDING USING IMAGE STEGANOGRAPHY</a></strong></td>
+</tr><tr>
+<td rowspan="2"><strong>14.</strong></td>
+<td>Authors</td>
+<td>LOKESH KESHRI, PARKHY SWAMI, MEGHA RAWAT, VISHAL KAUSHIK, ABHA SHARMA</td>
+<td rowspan="2"><strong>78-84</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/I2-F14.pdf" target="_blank">CHAT APPLICATION USING POSITIONING SYSTEM</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>15.</strong></td>
+<td>Authors</td>
+<td>KARTIKEY BHARDWAJ, JINENDAR KOTHARI, AMAN NAGAR, AJAY CHAUHAN</td>
+<td rowspan="2"><strong>85-89</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/E7-F15.pdf" target="_blank">DESIGN AND DEVELOPMENT OF USB CAUTERIZER</a></strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--
+<button class="collapsible">Open Section 2</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">Open Section 3</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+-->
+<button class="collapsible"><strong>Vol 2, Issue 2, 2023</strong></button>
+<div class="content">
+
+<table class="tableizer-table" width="100%">
+<thead>
+<tr>
+<td><h4 align="center">S. No.</h4></td>
+<td colspan="2"><h3 align="center"><Volume-2></Volume-2> VOLUME -2, Issue-2, DECEMBER 2023</h3></td>
+<td><h4 align="center">Page No.</h4></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2"><strong>1.</strong></td>
+<td>Authors</td>
+<td>DR. SWATI VAID DOGRA</td>
+<td rowspan="2"><strong>1-5</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a href="assets/doc/IPECJST-1.pdf">DESIGN AND DEVELOPMENT OF BLUETOOTH CONTROLLED PICK AND PLACE ROBOTIC VEHICLE</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>2.</strong></td>
+<td>Authors</td>
+<td>ARPIT SHARMA, KHUSHI AWASTHI, SHAFALI JAGGA</td>
+<td rowspan="2"><strong>6-12</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/IPECJST-2.pdf">PERFORMANCE ANALYSIS OF ADAPTIVE SPEECH ENHANCEMENT ALGORITHMS USING REAL TIME SIMULATION</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>3.</strong></td>
+<td>Authors</td>
+<td>ABHISHEK, KRISHNA BHAGAT, KRISHNA MURARI, VINAY, MS. SHALINI SINGH</td>
+<td rowspan="2"><strong>13-20</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/IPECJST-3.pdf">DESIGN AND IMPLEMENTATION OF SMART MIRROR FOR HEALTH MONITORING</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>4.</strong></td>
+<td>Authors</td>
+<td>NANSI JAIN, AJEET SINGH YADAV, SHREYASH SHANDILYA, SHIVANSH DUBEY, KANISHK SHARMA</td>
+<td rowspan="2"><strong>21-25</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/IPECJST-4.pdf">RECOMMENDER SYSTEMS: A COMPREHENSIVE REVIEW OF MODELS, TECHNIQUES, AND EMERGING TRENDS</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>5.</strong></td>
+<td>Authors</td>
+<td>AKKSHITA, AASHANA SAHAI, ANURAG BARTHWAL, ANJALI SINGHAL</td>
+<td rowspan="2"><strong>26-29</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/IPECJST-5.pdf">DESIGN AND IMPLEMENTATION OF A P2P FILE SHARING SYSTEM BASED ON BIT TORRENT PROTOCOL</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>6.</strong></td>
+<td>Authors</td>
+<td>DR. SANDHYA UMRAO, MANURAJ AGARWAL, HIMANSHU PANDEY, YASHAS JAISWAL, TEJAS SRIVASTAVA, DR. NEETA VERMA</td>
+<td rowspan="2"><strong>30-33</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/IPECJST-6.pdf">VISION VIGIL: A VIDEO CLASSIFIER</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>7.</strong></td>
+<td>Authors</td>
+<td>TRIPTI SHARMA, NANSI JAIN, HARSHIT GUPTA, AYUSH JAIN, DARPAN JAIN</td>
+<td rowspan="2"><strong>34-37</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/IPECJST-7.pdf">TRANSFORMING AGRICULTURE THROUGH IOT PRECISION FARMING REVOLUTION: EXPLORING SMART SOIL MANAGEMENT SYSTEMS</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>8.</strong></td>
+<td>Authors</td>
+<td>DR. ALKA SINGHAL, DR. ANJALI SINGHAL, ISHITA GUPTA, KHUSHI GOLE, KIRTI TOMER</td>
+<td rowspan="2"><strong>38-40</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/IPECJST-8.pdf">DIGISPECTRA: TECHNO - ARCHAEO TOOLKIT</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>9.</strong></td>
+<td>Authors</td>
+<td>RADHIKA GARG, PRIYANKA RANA, PIYUSH MANOCHA, PARAS SHARMA, VIJAI SINGH, ALPNA RANI</td>
+<td rowspan="2"><strong>41-46</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/IPECJST-9.pdf">INTELLIGENT WASTE CLASSIFICATION SYSTEM USING DEEP LEARNING CONVOLUTIONAL NEURAL NETWORK</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>10.</strong></td>
+<td>Authors</td>
+<td>SHASHANK GOYA, SHASHWAT THAKUR, SHIVAM KAPOOR, SHIVANSHU MANNA, DR. RAGINI KARWAYUN</td>
+<td rowspan="2"><strong>47-51</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/IPECJST-10.pdf">METAMINT</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>11.</strong></td>
+<td>Authors</td>
+<td>AJAY KUMAR, KANIKA SINGHAL, NISHANT UPADHYAY, KIRTI KUSHWAH</td>
+<td rowspan="2"><strong>52-55</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/IPECJST-11.pdf">MUSIC RECOMMENDATION USING FACIAL EXPRESSION</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>12.</strong></td>
+<td>Authors</td>
+<td>NEHA VARMA, ANSHU KUMARI, AVANTIKA TOMAR</td>
+<td rowspan="2"><strong>56-58</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/IPECJST-12.pdf">POTATO PLANT LEAF DISEASE DETECTION</a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>13.</strong></td>
+<td>Authors</td>
+<td>RAGINI KARWAYUN, KHUSHI SHARMA, CHIRAG DAWAR, MITALI GOYAL, PRIYAL JAIN</td>
+<td rowspan="2"><strong>59-63</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/IPECJST-13.pdf">SOLAR PANEL EFFICIENCY PREDICTION</a></strong></td>
+</tr><tr>
+<td rowspan="2"><strong>14.</strong></td>
+<td>Authors</td>
+<td>DEEKSHA SHARMA, UMANG MISHRA, PALAK PATHAK, KHUSHI GOEL</td>
+<td rowspan="2"><strong>64-67</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/IPECJST-14.pdf">DESIGN AND DEVELOPMENT OF CORDLESS ELECTRIC
+    VEHICLE CHARGER
+    </a></strong></td>
+</tr>
+<tr>
+<td rowspan="2"><strong>15.</strong></td>
+<td>Authors</td>
+<td>DR. ANJALI SINGHAL, LAKSHYA RATHI, RUDRANSH AGARWAL, AKARSH DUBEY</td>
+<td rowspan="2"><strong>68-71</strong></td>
+</tr>
+<tr>
+<td>Paper Title:</td>
+<td><strong><a a href="assets/doc/IPECJST-15.pdf">GESTURE PILOT</a></strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+ <!--
+<button class="collapsible">Open Section 2</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">Open Section 3</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+-->
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+	
+	</section>     
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+<!--
+					<h2>ORGANISING COMMITTEE</h2>
+</br>                           
+						  
+						  <h4>Dr. AMITA AGNIHOTRI</h4> 
+						<h4>Dr. MANISH GUPTA</h4>
+						<h4>Ms. ARCHANA AGARWAL</h4>
+						<h4>Mr. BHUPENDRA SEHGAL</h4>
+						<h4>Mr. RAVI ANAND</h4>
+						<h4>Ms. SHALINI SINGH</h4>
+						<h4>Ms. POOJA MISHRA</h4>
+						<h4>Ms. MEENAKSHI MATARAY</h4>
+						<h4>Mr. VIKAS SINGH NEGI</h4>
+
+                    </div><!-- /.speaker -->
+                </div><!-- /.col-md-4 -->
+				
+            </div><!-- /.row -->
+
+           
+		<!--		
+                <div class="col-md-4">
+
+                    <div class="speaker">
+             
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="speaker">
+            </div> -->
+        </div>          
+    </section>
+	<section>
+        <div id="paper" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="section-title">CALL FOR PAPERS</h2>
+                </div>
+            </div>
+                
+				
+				
+<p align="justify">Authors are invited to send their manuscripts by e-mail to  <b>editor.ipecjst@ipec.org.in</b></p>
+</br>
+
+
+<!--  <h3 class="section-title">THRUST AREAS OF THE CONFERENCE:-</h3>  -->
+
+
+<style type="text/css">
+	table.tArea {
+		font-size: 14px;
+		border: 1px solid #CCC; 
+		font-family: Arial, Helvetica, sans-serif;
+		border:outset 3px red;
+	} 
+	.tArea td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+		text-align:left;
+	}
+	
+</style>
+
+<table class="tArea" width= "100%">
+<tbody>
+<tr>
+<td>
+<span style="color: #003366;"><strong>PROCESS DESCRIPTION</strong></span></br>
+</td>
+<td>
+<span style="color: #003366;"><strong>LAST DATE</strong></span></br>
+</td>
+<!--
+<td>
+<span style="color: #003366;"><strong>Electronic Systems:</strong></span></br>
+</td> -->
+</tr>
+<tr>
+<td>
+Manuscript Submission</br>
+<!--Manuscript Review Feedback</br>
+Manuscript Publication</br> -->
+Issue Month</br>
+
+</td>
+<td>
+20 May 2024</br>
+<!--Within 2 weeks after Submission</br>
+Within 2 weeks after Registration</br> -->
+June 2024</br>
+
+</td>
+<!--   <td>
+Assembly and Manufacturing Technology</br>
+Control Systems</br>
+Neural Networks and Fuzzy Logics</br>
+Microelectronics</br>
+Analog and Mixed Signal Circuits</br>
+Advanced Semi-Conductor Devices</br>
+</td>      -->
+</tr>
+</tbody>
+</table>
+</br>
+<p><b>Acceptance / Rejection Notification:</b>  Depends upon nature of work and based on reviewer’s reply.</p>
+<!--
+
+<table class="tArea" width= "100%">
+
+<tbody>
+<tr>
+<td>
+<span style="color: #003366;"><strong>Power Systems</strong></span>
+</td>
+<td>
+<span style="color: #003366;"><strong>Microwaves</strong></span>
+</td>
+<td>
+<span style="color: #003366;"><strong>Internet of Things</strong></span>
+</td>
+</tr>
+<tr>
+<td>
+Power System Planning</br>
+Power System Security and Monitoring</br>
+Facts Devices and Their Applications</br>
+Power System Reliability</br>
+Smart Grid Technology</br>
+</br>
+</br>
+</td>
+<td>
+Electromagnetic Noise &amp; Interference</br>
+Electronics, Photonics &amp; Devices</br>
+Wave Propagation &amp; Remote Sensing</br>
+Antenna Analysis, Synthesis and Measurement</br>
+Microstrip and Wideband Antenna</br>
+Electromagnetic Materials and Systems</br>
+Microwave Applications</br>
+</td>
+<td>
+IOT edge and cloud architectures</br>
+Web of things</br>
+Human interaction with IOT</br>
+Robotic IOT Systems</br>
+IOT Communication Technologies</br>
+Security and Privacy in IOT</br>
+Real world applications &amp; deployment</br>
+</td>
+</tr>
+</tbody>
+</table>
+<strong></strong></br>
+<table class="tArea" width= "100%">
+
+<tbody>
+<tr>
+<td>
+<span style="color: #003366;"><strong>Networking Technologies</strong></span></br>
+</td>
+<td>
+<span style="color: #003366;"><strong>Signal Processing </strong></span></br>
+</td>
+<td>
+<span style="color: #003366;"><strong>Control Systems</strong></span></br>
+</td>
+</tr>
+<tr>
+<td>
+Network Algorithms, Operations and Management</br>
+Adhoc and Sensor Networks</br>
+Network Security, Privacy and Cryptography</br>
+Mobile Computing and Cloud Computing</br>
+Big Data Analysis</br>
+</br>
+</br>
+</td>
+<td>
+Analog and Digital Signal Processing</br>
+Bio-medical Signal Processing</br>
+Pattern Recognition</br>
+Signal filtering, Detection and Estimation</br>
+Statistical Signal Processing and Modeling</br>
+Ancient Intelligence Computer Vision and Auditions</br>
+<strong></strong></br>
+</td>
+<td>
+Application of Control Systems</br>
+Model Order Reduction</br>
+AI techniques in Control Application</br>
+Optimization Techniques in Electrical Engineering</br>
+</br>
+</br>
+
+<strong></strong></br>
+</td>
+</tr>
+</tbody>
+</table>
+</br>
+<table class="tArea" width= "100%">
+<tbody>
+<tr>
+<td>
+<span style="color: #003366;"><strong>Power Electronic and Drives </strong></span></br>
+</td>
+<td>
+<span style="color: #003366;"><strong>Renewable Energy</strong></span></br>
+</td>
+<td>
+<span style="color: #003366;"><strong>Mechatronics</strong></span></td>
+</tr>
+<tr>
+<td>
+Advance Electric Drives and Hybrid Vehicles</br>
+Advance Power Electronics &amp; its Application</br>
+Application of AI Techniques in Power Electronic and Electric Drives</br>
+</br>
+</br>
+</td>
+<td>
+Renewable Energy and Energy Storage Systems</br>
+Green Energy</br>
+Challenges &amp; Opportunities in Renewable Energy Sector</br>
+</br>
+</br>
+
+</td>
+<td>
+Micro + Nano Mechatronics</br>
+Robotics &amp; Biomechatronics</br>
+Advanced Motion Control</br>
+Sensors/Actkaturs</br>
+Intelligent Control &amp; AI in Mechatronics</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+        </div>
+    </section>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+    <section id="submission" class="section submission">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">GUIDELINES FOR PROPER SUBMISSION</h3>
+                </div>
+            </div>
+                
+				
+				<p><strong>GUIDELINES FOR PROPER SUBMISSION</strong></p>
+<ul>
+<li>Paper must be in IEEE format.</li>
+<li>Each paper must be of maximum 6 pages .</li>
+</ul>
+</br>
+
+<p style="color:red"><strong>Downloads</strong></p>
+<ul>
+<li><a href="\documentation\copyrightcerti.pdf" target="_blank">Copyright Certificate</a></li>
+<li><a href="\documentation\registrationform_ncrteee2020.pdf" target="_blank">Registration Form NCRTEEE-2020</a></li>
+</br>
+
+<p style="color:red"><strong>* TEMPLATE OF THE CONFERENCE PAPER</strong></p>
+<ul>
+<li><a href="\documentation\TEMPLATE.pdf" target="_blank">In PDF format</a></li>
+<li><a href="\documentation\TEMPLATE.docx"target="_blank">In Word format</a></li>
+</ul>
+</br>
+<!--<p style="color:red"><strong>* Registration Form</strong></p>
+<ul>
+<li><a href="\documentation\registration.pdf" target="_blank">Click Here to Download</a></li>
+</ul>-->
+
+<!--
+
+<p style="color:red"><strong>Conference Brochure</strong></p>
+<ul>
+<li><a href="\documentation\brochure.jpg" target="_blank">Click Here to Download</a></li>
+</ul>
+</br>
+
+
+
+</ul>
+</br>
+
+<p><strong>IMPORTANT DATES</strong></br>
+Paper submission: 5<sup>th</sup> June, 2020</br>
+Notification of Paper Acceptance: 10<sup>th</sup> June, 2020</br>
+Final paper submission: 15<sup>th</sup> June, 2020</br>
+Last date of registration: <font color="red">20<sup>th</sup> Jun, 2020</font></br>
+Conference date: 25<sup>th</sup>&amp; 26<sup>th</sup>Jun, 2020</p>
+
+<p><strong>SUBMISSION METHOD</strong></br>
+Please mail your papers to the following email address:<a href="mailto:ncrteee2020@ipec.org.in">ncrteee2020@ipec.org.in</a></p>
+
+<p><strong>For any query, please contact:</strong></br>
+Dr. Amita Agnihotri:9990048253</br>
+Dr. Sadaf Naqvi: 9212752438</br>
+
+<strong>Registration Fee:-</strong></br>
+Delegates from Industry		    	: Rs 250 </br>
+Faculty/Research Scholars			: Rs 250 </br>
+B.Tech/M.Tech Students	            : Rs 250</br>
+
+</p>
+
+<p><strong>Mode of Payment:</strong></br>
+<font color="red"><strong>Online payment to be made to the following account:</br>
+Mode of Payment: Online</br>
+Name: Inderprastha Engineering College</br>
+Bank Name: HDFC Bank Ltd</br>
+Address: D-44, RDC, Rajnagar, Ghaziabad</br>
+A/c No.: 50100087471211</br>
+IFSC Code: HDFC0000153</br>
+</font>
+				
+            
+        </div>
+    </section>
+<!--
+    <section id="contribution" class="section bg-image-2 contribution">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-uppercase mt0 font-400">Submit Your Contribution Work</h3>
+                    
+                    <p>You've inspired new consumer, racked up click-thru's, blown-up brand awareness. We can't give you back the weekends you worked, or erase the pain of being forced to make the logo bigger. But if you submit your best work.</p>
+
+                    <a class="btn btn-white" href="#">Submit</a>
+                </div>
+            </div>
+        </div>
+    </section>  -->
+<!--
+    <section id="schedule" class="section schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Event Schedule: <a href="/documentation/schedule20.pdf" target="_blank">Click here to Download</a></h3>
+                </div>
+            </div>
+            </section>
+            
+          <!-- <h1>Day I:Monday, 10th June,2019</h1>
+<p><strong><em>&nbsp;</em></strong></p>
+<table>
+<tbody>
+<tr>
+<td width="274">
+<p><strong>Time</strong></p>
+</td>
+<td width="236">
+<p><strong>Activity</strong></p>
+</td>
+<td width="245">
+<p><strong>Venue</strong></p>
+</td>
+</tr>
+<tr>
+<td width="274">
+<p><strong>9:00 am -10:00 am</strong></p>
+</td>
+<td width="236">
+<p>Registration</p>
+</td>
+<td width="245">
+<p>Outside Raman Sabhagar</p>
+</td>
+</tr>
+<tr>
+<td width="274">
+<p><strong>10:00 am &ndash; 11:00 am</strong></p>
+</td>
+<td width="236">
+<p>Inaugural Session</p>
+</td>
+<td width="245">
+<p>Civil Seminar Hall</p>
+</td>
+</tr>
+<tr>
+<td width="274">
+<p><strong>11:00am &ndash; 11:30 am</strong></p>
+</td>
+<td width="236">
+<p>High Tea</p>
+</td>
+<td width="245">
+<p>Near Civil Seminar Hall</p>
+</td>
+</tr>
+<tr>
+<td width="274">
+<p><strong>11:30 am &ndash; 01:30 pm</strong></p>
+</td>
+<td width="236">
+<p>ECE 1st Session</p>
+</td>
+<td width="245">
+<p>Civil Seminar Hall</p>
+</td>
+</tr>
+<tr>
+<td width="274">
+<p>&nbsp;</p>
+</td>
+<td width="236">
+<p>EN 1st Session</p>
+</td>
+<td width="245">
+<p>ECE Seminar Hall</p>
+</td>
+</tr>
+<tr>
+<td width="274">
+<p><strong>01:30 pm &ndash; 02:30 pm</strong></p>
+</td>
+<td width="236">
+<p>Lunch</p>
+</td>
+<td width="245">
+<p>Boys Hostel Mess</p>
+</td>
+</tr>
+<tr>
+<td width="274">
+<p><strong>02:30 pm &ndash; 04:30 pm</strong></p>
+</td>
+<td width="236">
+<p>ECE 2nd Session</p>
+</td>
+<td width="245">
+<p>Civil Seminar Hall</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong><em>Day II: Tuesday, 11th June,2019</em></strong></p>
+<table>
+<tbody>
+<tr>
+<td width="274">
+<p><strong>Time</strong></p>
+</td>
+<td width="236">
+<p><strong>Activity</strong></p>
+</td>
+<td width="245">
+<p><strong>Venue</strong></p>
+</td>
+</tr>
+<tr>
+<td width="274">
+<p><strong>10:30 am &ndash; 12:30 pm</strong></p>
+</td>
+<td width="236">
+<p>3rd Session</p>
+</td>
+<td width="245">
+<p>Civil Seminar Hall</p>
+</td>
+</tr>
+<tr>
+<td width="274">
+<p><strong>12:30 pm &ndash; 1:00 pm</strong></p>
+</td>
+<td width="236">
+<p>Valedictory Session</p>
+<p>v&nbsp; Certificate Distribution</p>
+<p>v Best Paper/ Organizer (faculty &amp; student)</p>
+</td>
+<td width="245">
+<p>Civil Seminar Hall</p>
+</td>
+</tr>
+<tr>
+<td width="274">
+<p><strong>01:00 pm &ndash; 02:00 pm</strong></p>
+</td>
+<td width="236">
+<p>Lunch</p>
+</td>
+<td width="245">
+<p>Boys Hostel Mess</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+
+           
+            </div>
+    </section>
+
+    <section id="partner" class="section partner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Event Partner</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-1"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-2"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-3"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-4"></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-5"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-6"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-7"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-8"></a>
+                </div>
+            </div>   
+    </section>
+
+	
+
+	
+    <section id="faq" class="section faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Event FAQs</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> What is the price of the ticket ?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <h3>Hello</h3>
+                                    <p>Lorem Ipsum</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> What is included in my ticket ?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">Hello</div>
+                            </div>
+                        </div>
+  
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Office address ?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">Hello</div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFour">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> How should I dress ?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                <div class="panel-body">Hello</div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFive">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> I have specific questions that are not addressed here. Who can help me ?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                <div class="panel-body">Hello</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>-->
+
+
+	<!--
+	
+	
+    <section id="photos" class="section photos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Glimpses of Earlier Conference</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="grid">
+                        
+                
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-1.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-2.jpg">
+                        </li>
+                    
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-4.jpg">
+                        </li>
+
+                       <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-5.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-6.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-7.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-8.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-9.jpg">
+                        </li>
+                    </ul>
+                </div>
+            </div>            
+        </div>
+    </section>   -->
+
+    <section id="location" class="section location">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3 class="section-title">Contact us</h3>
+                    <address>
+					<p><b>Publication Body: </b>
+					    <h4>INDERPRASTHA ENGINEERING COLLLEGE</h4><h3>Address:</h3> 63, SITE-4<br> SAHIBABAD INDUSTRIAL AREA<br> SURYA NAGAR FLY OVER ROAD</br> SAHIBABAD, GHAZIABAD</br>201010 </br> Ph: +91-0120-4535026,</br> +91-0120-4535057,</br> +91-0120-4535038</br><h3>Editor inChief:</h3> <h4>Dr. Ajay Kumar,
+						Professor , Inderprastha Engineering College, Ghaziabad, India</h4> </br> <b>Email: editor.ipecjst@ipec.org.in</b>  </p>
+                    </address>
+                </div>
+                <div class="col-sm-9">
+<div style="width: 100%"><iframe width="100%" height="400" src="https://maps.google.com/maps?width=100%&amp;height=400&amp;hl=en&amp;q=inderprastha%20engineering%20college+(IPEC)&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Google map generator</a></iframe></div><br />              
+
+
+
+
+
+     <!-- <iframe src="https://www.google.co.in/maps/place/Inderprastha+Engineering+College/@28.6587342,77.3386632,17z/data=!3m1!4b1!4m5!3m4!1s0x390cfa9b30000001:0xf8c8e01b5759ffb0!8m2!3d28.6587342!4d77.3408519" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="site-info">Updated by Inderprastha Engineering College</p>
+                    
+					
+					<ul class="social-block">
+                       <li><a href="https://fb.com/ipec30"><i class="ion-social-facebook"></i></a></li>
+
+<!--<li><a href=""><i class="ion-social-twitter"></i></a></li>
+                       <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                       <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                    </ul>   -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- script -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

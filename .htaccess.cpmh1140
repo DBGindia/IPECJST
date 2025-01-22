@@ -1,0 +1,8 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ncrteee18\.ipec\.org\.in$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ncrteee18\.ipec\.org\.in$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/?$ "http\:\/\/ipec\.org\.in\/ncrteee\-2018\/" [R=301,L]
+
